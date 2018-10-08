@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#000000">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--   <TextView
+                   android:id="@+id/et_share"
+                   android:layout_width="match_parent"
+                   android:layout_height="@dimen/_50sdp"
+                   android:layout_gravity="center"
+                   android:fontFamily="@font/raleway_medium_o"
+                   android:gravity="center"
+                   android:text="@string/review"
+                   android:textSize="@dimen/_16sdp" />-->
+
+            <TextView
+                android:id="@+id/tv_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="You want to block this user?"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/block"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:background="#fd0000"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Block"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/chat"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:background="#0080ff"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Chat"
+                    android:visibility="gone"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+</RelativeLayout>

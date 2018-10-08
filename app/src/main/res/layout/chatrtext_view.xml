@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="#2d96ff"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/ownUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="UserName"
+            android:paddingRight="5dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ffc234"
+        android:layout_gravity="start"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/otherUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="UserName"
+            android:paddingRight="5dp"
+            android:layout_margin="10dp"
+            android:gravity="start"
+            android:textStyle="italic"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+   <!-- <TextView
+        android:id="@+id/usename_chat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="UserName"
+        android:paddingRight="5dp"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:gravity="end"/>-->
+
+</LinearLayout>
